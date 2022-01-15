@@ -193,6 +193,8 @@ footer a {
 
 /* Media Queries */
 
+/* Mobile Device */
+
 @media only screen and (max-width: 688px) {
     .influencer-gears {
         width: 100%;
@@ -206,7 +208,6 @@ footer a {
     .nav-items ul {
         flex-direction: column;
         font-size: 50px;
-        transition: .6s;
     }
 
     .main-item {
@@ -237,7 +238,7 @@ footer a {
     .items {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-
+        flex-wrap: nowrap;
     }
 
     .item {
@@ -266,9 +267,78 @@ footer a {
 
 
     footer {
-        display: block;
         font-size: 40%;
         width: 100%;
+        flex-wrap: nowrap;
     }
+
+}
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .influencer-gears {
+        width: 100%;
+    }
+
+    .influencer-info {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-item {
+        width: 100%;
+    }
+
+    .main-info {
+        flex-direction: column;
+
+    }
+
+    .main-info h1 {
+        font-size: 30px;
+    }
+
+    .main-item img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        flex-wrap: nowrap;
+
+    }
+
+    .item {
+        flex-direction: column;
+    }
+
+    .offer-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offer-time p {
+        text-align: center;
+    }
+
+    .offer-details img {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 40%;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+
 
 }
