@@ -45,7 +45,7 @@ main {
     margin-top: 20px;
 }
 
-.main-info img {
+.main-item img {
     width: 50%;
 }
 
@@ -167,7 +167,7 @@ hr {
     color: rgb(255, 2, 2);
     display: inline;
     background-color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 17px;
     padding: 15px;
     border-radius: 40%;
 }
@@ -216,6 +216,10 @@ footer a {
 
     .main-info h1 {
         font-size: 30px;
+    }
+
+    .link-button {
+        font-size: 10px;
     }
 
     .main-item img {
@@ -298,6 +302,10 @@ footer a {
 
     .main-info h1 {
         font-size: 30px;
+    }
+
+    .link-button {
+        font-size: 10px;
     }
 
     .main-item img {
