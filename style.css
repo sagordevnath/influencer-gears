@@ -83,11 +83,30 @@ hr {
 
 /* Company Logo Section End */
 /* Popular Collection Item Start */
+.container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 30px;
+}
+
+.container h4 {
+    font-size: 24px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #cfc6cb;
+}
+
 .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-gap: 10px 10px; */
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 
 .item {
@@ -95,6 +114,22 @@ hr {
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(170, 167, 167);
+}
+
+.see-more-btn {
+    display: block;
+    right: 0;
+    text-decoration: none;
+    text-align: right;
+    font-size: 16px;
+    color: #E02C6D;
+    margin-top: 25px;
+}
+
+.see-more-btn i {
+    margin-left: 10px;
 }
 
 /* Popular Collection Item End */
